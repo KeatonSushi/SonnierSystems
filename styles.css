@@ -1,0 +1,122 @@
+/* Index */
+
+body{
+    background-color: #2C74B3 !important;
+}
+
+/* Navbar */
+
+.homepage-section{
+    height: 100vh;
+}
+
+.hp-div{
+    margin-top: 100px;
+}
+
+.homepage-logo{
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color: #0A2647;
+}
+
+.homepage-h2{
+    position: absolute;
+    left: 650px;
+    color: #144272;
+}
+
+.plumber-image{
+    position: absolute;
+    height: 350px;
+    width: auto;
+    bottom: 8px;
+}
+
+@media (max-width:600px) {
+    .homepage-h2 {
+    left: 200px;
+    }
+
+    .hp-div{
+        margin-top: 50px;
+    }
+
+    .plumber-image{
+        height: 90px;
+        width: auto;
+    }
+}
+
+/* Services */
+
+
+.blind-div{
+    text-align: center;
+}
+
+.blinds{
+    height: 300px;
+    width: auto;
+    margin-left: 970px;
+    margin-top: 100px;
+}
+
+@media (max-width: 600px){
+    .blinds{
+        visibility: hidden;
+        margin: 0;
+    }
+    }
+
+    .marble-div{
+        text-align: right;
+    }
+
+    .floor-image{
+        position: absolute;
+        height: 300px;
+        width: auto;
+        right: 900px;
+        bottom: -160px;
+    }
+
+    @media (max-width: 600px){
+        .marble-div{
+            text-align: center;
+            padding-top: 150px;
+        }
+    }
+
+    /* Contact */
+
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+      .contact-form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
